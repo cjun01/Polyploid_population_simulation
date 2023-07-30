@@ -1,16 +1,14 @@
 
-
-
 # Population Simulation Library
 
 A Python library for simulating, visualizing, and analyzing population genomic data.
 
 ## install
-pip install git+https://github.com/cjun01/population_simulation.git
+pip install git+https://github.com/cjun01/Polyploid_population_simulation.git
 
 ## Features
 
-- **Hexaploid Population Data Simulation**: Generates artificial data based on given parameters.
+- **Polyploid Population Data Simulation**: Generates artificial data based on given parameters.
 - **PCA Visualization**: Visualize the simulated population using PCA.
 - **LD Blocks and Intermixing**: Introduces Linkage Disequilibrium blocks and shuffles data between clusters.
 - **Linkage Disequilibrium Calculation**: Analyzes the simulated data and plots a heatmap of the Linkage Disequilibrium.
@@ -21,7 +19,7 @@ pip install git+https://github.com/cjun01/population_simulation.git
 ## How to use
 - **Simulating and Visualizing the Population**
 
-from your_module_name import simulate_and_visualize_population
+from simulation_with_population_strucuture import simulate_and_visualize_population
 
 df, data = simulate_and_visualize_population(2000, 15000, 6, 5)
 
@@ -35,7 +33,7 @@ df, data = simulate_and_visualize_population(2000, 15000, 6, 5)
 
 - **Calculating and Visualizing Linkage Disequilibrium**
 
-from your_module_name import calculate_r2
+from simulation_with_population_strucuture import calculate_r2
 
 ld_r2 = calculate_r2(data)
 
