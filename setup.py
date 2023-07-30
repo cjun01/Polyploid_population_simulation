@@ -13,6 +13,7 @@ setup(
         'numba',
         'scikit-learn',
     ],
+    py_modules=["simulation_pop"],
     author='Z C',
     author_email='cjun01@gmail.com',
     description='A library to simulate and visualize population data.',
