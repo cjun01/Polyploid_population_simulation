@@ -14,7 +14,7 @@ pip install git+https://github.com/cjun01/Polyploid_population_simulation.git
 - **Linkage Disequilibrium Calculation**: Analyzes the simulated data and plots a heatmap of the Linkage Disequilibrium.
 
 ## Installation & Requirements
-- **pip install numpy matplotlib scikit-learn pandas seaborn tqdm numba
+- **pip install numpy matplotlib scikit-learn pandas seaborn tqdm numba**
 
 ## How to use
 - **Simulating and Visualizing the Population**
