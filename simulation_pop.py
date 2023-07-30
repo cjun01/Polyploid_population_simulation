@@ -121,5 +121,3 @@ def calculate_r2(matrix):
     plt.show()
 
     return r2_values
-df,data = simulate_and_visualize_population(2000, 15000, 6, 5)
-ld_r2 = calculate_r2(data)
