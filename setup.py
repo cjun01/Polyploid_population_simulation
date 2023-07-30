@@ -17,7 +17,6 @@ setup(
     author_email='cjun01@gmail.com',
     description='A library to simulate and visualize population data.',
     long_description=open('README.md').read(),
-    long_description_content_type='text/markdown',
-    license='MIT',
-    url='https://github.com/yourusername/population_simulation', # link to your github or wherever you host the code.
+    license='MIT'
+
 )
