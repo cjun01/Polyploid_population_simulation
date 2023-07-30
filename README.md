@@ -19,7 +19,7 @@ pip install git+https://github.com/cjun01/Polyploid_population_simulation.git
 ## How to use
 - **Simulating and Visualizing the Population**
 
-from simulation_with_population_strucuture import simulate_and_visualize_population
+from simulation_pop import simulate_and_visualize_population
 
 df, data = simulate_and_visualize_population(2000, 15000, 6, 5)
 
@@ -33,7 +33,7 @@ df, data = simulate_and_visualize_population(2000, 15000, 6, 5)
 
 - **Calculating and Visualizing Linkage Disequilibrium**
 
-from simulation_with_population_strucuture import calculate_r2
+from simulation_pop import calculate_r2
 
 ld_r2 = calculate_r2(data)
 
